@@ -1,10 +1,50 @@
-<style type="text/css">
-#css_table {
-      display:table;
-  }
-.css_tr {
-      display: table-row;
-  }
-.css_td {
-      display: table-cell;
-  }
+#header {
+background-color: #93F;
+font-family: Fixedsys;
+color: #FFF;
+height: 100px;
+}
+#leftmanu {
+font-family: Fixedsys;
+background-color: #F93;
+width: 200px;
+color: #666;
+float: left;
+}
+#bottom {
+font-family: Fixedsys;
+color: #FFF;
+background-color: #F00;
+clear: both;
+height: 100px;
+}
+#allimage {
+background-image: url(back4-9_jpg.gif);
+}
+#control {
+width: 1000px;
+margin-top: 50px;
+margin-right: 200px;
+margin-bottom: 50px;
+margin-left: 150px;
+}
+#rightmanu {
+background-color: #F0F;
+font-family: Fixedsys;
+width: 200px;
+color: #FFF;
+float: right;
+}
+#hearder {
+background-color: #90C;
+}
+#content {
+    font-family: Fixedsys;
+background-color: #0F6;
+width: 600px;
+float: left;
+}
+p {
+padding: 0px;
+}
+</style>
