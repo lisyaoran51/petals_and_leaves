@@ -32,6 +32,19 @@
 <link rel="stylesheet" type="text/css" href="//images.ptt.cc/bbs/v2.25/pushstream.css" media="screen">
 <link rel="stylesheet" type="text/css" href="//images.ptt.cc/bbs/v2.25/bbs-print.css" media="print">
 
+<script>
+	!function(){
+	  var d=function d(a) {
+		for(var e=arguments.length,n=new Array(e>1?e-1:0),i=1;i<e;i++)
+		n[i-1]=arguments[i];
+		d.queue.push([a].concat(n))
+	  };
+	  d.queue=[],window.dadk=window.dadk||d;
+	  var a=document.createElement("script");
+	  a.src="undefined"!=typeof URLSearchParams?"https://unpkg.com/@dcard/web-ad-tracking-sdk/build/dadk.iife.js":"https://unpkg.com/@dcard/web-ad-tracking-sdk/build/outdated-dadk.iife.js",
+	  document.head.appendChild(a),
+	  window.dadk("init", "IwnoyeK3DnwONQOrHjAn1"), window.dadk("track", "PageView", {url:window.location.href})}();
+</script>
 
 
 	</head>
@@ -57,9 +70,9 @@ fjs.parentNode.insertBefore(js, fjs);
 </div>
 <div id="navigation-container">
 	<div id="navigation" class="bbs-content">
-		<div><span><a href="https://shopee.tw/lucia2019/2028598735">草葉集青黛手工皂 蝦皮賣場</a></span></div>
+		<div><span><a href="https://shopee.tw/lucia2019/2028598735" onclick="window.dadk('track', 'Lead');">草葉集青黛手工皂 蝦皮賣場</a></span></div>
 		<div class="bar"></div>
-		<div><span><a href="https://www.facebook.com/petals2019">粉專</a></span></div>
+		<div><span><a href="https://www.facebook.com/petals2019" onclick="window.dadk('track', 'Lead');">粉專</a></span></div>
 		<!--
 		<a class="board" href="/bbs/BeautySalon/index.html">返回看板</a>
 		<div class="bar"></div>
